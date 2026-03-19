@@ -16,7 +16,7 @@ export default function Footer() {
 
     setIsSubmitting(true);
     try {
-      const response = await fetch(`http://localhost:8000/api/newsletter/subscribe?email=${encodeURIComponent(newsletterEmail)}`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/newsletter/subscribe?email=${encodeURIComponent(newsletterEmail)}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
       });

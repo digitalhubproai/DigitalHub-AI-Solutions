@@ -30,7 +30,12 @@ app = FastAPI(title="DigitalHub AI Solutions API")
 # Setup CORS to allow Next.js frontend to communicate
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+        "http://localhost:3000",
+        "https://creativesar-digitalhubai.hf.space",
+        "https://huggingface.co",
+        "https://digitalhub-ai-solutions.hf.space"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

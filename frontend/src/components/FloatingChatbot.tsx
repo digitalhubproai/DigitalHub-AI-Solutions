@@ -268,7 +268,7 @@ export default function FloatingChatbot() {
     setIsTyping(true);
 
     try {
-      const response = await fetch("http://localhost:8000/api/chat", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -345,7 +345,7 @@ export default function FloatingChatbot() {
 
     setIsSubmittingLead(true);
     try {
-      const resp = await fetch("http://localhost:8000/api/chatbot-lead", {
+      const resp = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/chatbot-lead`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -385,7 +385,7 @@ export default function FloatingChatbot() {
 
     setIsSubmittingService(true);
     try {
-      const resp = await fetch("http://localhost:8000/api/service-request", {
+      const resp = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/service-request`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
