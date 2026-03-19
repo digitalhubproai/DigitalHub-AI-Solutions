@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #050505;
+  --color-foreground: #FFFFFF;
+  --color-primary: #00A3FF;
+  --color-secondary: #0066FF;
+  --color-accent: #00F0FF;
+  --color-surface: #121214;
+  --color-border: rgba(255, 255, 255, 0.08);
+  
+  --font-sans: "Inter", var(--font-geist-sans), system-ui, sans-serif;
+  --font-display: "Outfit", var(--font-geist-sans), system-ui, sans-serif;
+}
+
+:root {
+  --background: #050505;
+  --foreground: #FFFFFF;
+  --primary: #00A3FF;
+  --accent: #00F0FF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Modern Glassmorphism Utilities */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+
+  .glass-dark {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px) saturate(160%);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #FFFFFF 0%, #00A3FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-glow-blue {
+    text-shadow: 0 0 20px rgba(0, 163, 255, 0.5);
+  }
+
+  .bg-mesh {
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(203, 100%, 50%, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(190, 100%, 50%, 0.1) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, hsla(210, 100%, 50%, 0.1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(200, 100%, 50%, 0.15) 0px, transparent 50%);
+  }
+
+  .border-gradient {
+    border: 1px solid;
+    border-image-source: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(0,163,255,0.2));
+    border-image-slice: 1;
+  }
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+/* Smooth Entrance Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
