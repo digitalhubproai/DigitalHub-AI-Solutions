@@ -9,7 +9,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <div className="pt-20">
-      <PageHeader 
+      <PageHeader
         badge="Neural Connection"
         title="Contact Us"
         subtitle="Ready to dominate the digital frontier? Initiate the protocol and let's architect your success."
