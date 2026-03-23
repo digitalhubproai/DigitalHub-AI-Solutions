@@ -427,7 +427,7 @@ export default function FloatingChatbot() {
   };
 
   return (
-    <div className="fixed bottom-8 right-8 z-[9999]">
+    <div className="fixed bottom-4 right-4 md:bottom-8 md:right-8 z-[9999]">
       <motion.button
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
@@ -472,7 +472,7 @@ export default function FloatingChatbot() {
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              className="absolute bottom-20 right-0 w-[380px] h-[520px] glass-dark border border-white/10 rounded-[1.5rem] overflow-hidden shadow-[0_0_50px_rgba(0,163,255,0.2)] flex flex-col"
+              className="absolute bottom-20 right-0 w-[calc(100vw-2rem)] sm:w-[380px] h-[70vh] sm:h-[520px] glass-dark border border-white/10 rounded-[1.5rem] overflow-hidden shadow-[0_0_50px_rgba(0,163,255,0.2)] flex flex-col"
             >
             {/* Header */}
             <div className="p-4 border-b border-white/10 flex items-center justify-between bg-white/[0.02]">
