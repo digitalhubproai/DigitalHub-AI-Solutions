@@ -163,7 +163,7 @@ export default function FloatingChatbot() {
     {
       id: 1,
       type: "bot",
-      text: "Neural Link Established. I am the DigitalHub AI Core. How can I accelerate your business growth today?"
+      text: "Hi there! Welcome to DigitalHub AI Solutions. I'm here to help you grow your business. How can I assist you today?"
     }
   ]);
   const [inputVal, setInputVal] = useState("");
@@ -359,7 +359,7 @@ export default function FloatingChatbot() {
         setMessages(prev => [...prev, {
           id: Date.now(),
           type: "bot",
-          text: `Welcome ${leadForm.name}! Neural link established. How can I help you today?`
+          text: `Welcome ${leadForm.name}! Great to have you here. How can I help you today?`
         }]);
       }
     } catch (err) {
