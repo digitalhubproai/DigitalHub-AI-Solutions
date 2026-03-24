@@ -561,7 +561,7 @@ export default function FloatingChatbot() {
                     disabled={isSubmittingLead}
                     className="w-full bg-primary text-white font-bold py-3 rounded-xl text-xs hover:bg-secondary transition-all active:scale-[0.98] disabled:opacity-50"
                   >
-                    {isSubmittingLead ? "Initializing..." : "Start Neural Session"}
+                    {isSubmittingLead ? "Initializing..." : "Start Conversation"}
                   </button>
                 </form>
               </div>

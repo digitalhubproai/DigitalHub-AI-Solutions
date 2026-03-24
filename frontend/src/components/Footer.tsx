@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Github, Twitter, Linkedin, Instagram, Rocket, Mail, Send, Facebook } from "lucide-react";
+import { Github, Twitter, Linkedin, Instagram, Rocket, Mail, Send, Facebook, ExternalLink } from "lucide-react";
 
 export default function Footer() {
   const [newsletterEmail, setNewsletterEmail] = useState("");
@@ -70,16 +70,18 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3">
               {[
-                { icon: Twitter, href: "https://x.com/digitalhub_ai" },
-                { icon: Facebook, href: "https://www.facebook.com/profile.phpid=61581310731184" },
-                { icon: Instagram, href: "https://www.instagram.com/digitalhubproai/" }
-              ].map(({ icon: Icon, href }, i) => (
+                { icon: Twitter, href: "https://x.com/digitalhub_ai", label: "Twitter" },
+                { icon: Facebook, href: "https://www.facebook.com/profile.php?id=61581310731184", label: "Facebook" },
+                { icon: Instagram, href: "https://www.instagram.com/digitalhubproai/", label: "Instagram" },
+                { icon: ExternalLink, href: "https://www.upwork.com/freelancers/~0185d5cb53a56eb8d9", label: "Upwork" }
+              ].map(({ icon: Icon, href, label }, i) => (
                 <a
                   key={i}
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-xl glass border-white/5 flex items-center justify-center text-gray-400 hover:text-primary hover:border-primary/30 transition-all hover:-translate-y-1"
+                  aria-label={label}
                 >
                   <Icon className="w-5 h-5" />
                 </a>
