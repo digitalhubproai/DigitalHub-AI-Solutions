@@ -9,6 +9,16 @@ import Link from "next/link";
 const projects = [
   {
     id: 1,
+    title: "Al-Haramain Travel",
+    category: "Travel & Tourism Website",
+    desc: "Professional travel and tourism website for Al-Haramain Travel. Offering premium travel services, tour packages, and booking solutions for travelers.",
+    image: "/Al-Haramain-Travel.png",
+    link: "https://al-haramin.vercel.app/",
+    color: "from-emerald-500/20 to-teal-500/20",
+    github: undefined
+  },
+  {
+    id: 2,
     title: "Passion & Profit",
     category: "Business Consulting Website",
     desc: "Professional B2B consulting platform for freelancers and small businesses. Features lead generation funnels, coaching programs, and automated marketing systems.",

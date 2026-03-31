@@ -5,6 +5,26 @@ import { notFound } from "next/navigation";
 const projects = [
   {
     id: 1,
+    title: "Al-Haramain Travel",
+    category: "Travel & Tourism Website",
+    desc: "Professional travel and tourism website for Al-Haramain Travel. Offering premium travel services, tour packages, and booking solutions for travelers.",
+    image: "/Al-Haramain-Travel.png",
+    link: "https://al-haramin.vercel.app/",
+    color: "from-emerald-500/20 to-teal-500/20",
+    fullDescription:
+      "Al-Haramain Travel is a professional travel and tourism website designed to provide exceptional travel experiences. The platform offers comprehensive travel services including tour packages, flight bookings, hotel reservations, and visa assistance. Built with modern web technologies, it delivers a seamless user experience for travelers seeking reliable and premium travel solutions.",
+    features: [
+      "Tour Package Booking",
+      "Flight Reservation System",
+      "Hotel Booking Integration",
+      "Visa Assistance Services",
+      "Travel Guide & Information",
+      "Online Payment Gateway",
+    ],
+    technologies: ["Next.js", "React", "Tailwind CSS", "Vercel"],
+  },
+  {
+    id: 2,
     title: "Passion & Profit",
     category: "Business Consulting Website",
     desc: "Professional B2B consulting platform for freelancers and small businesses. Features lead generation funnels, coaching programs, and automated marketing systems.",
@@ -24,7 +44,7 @@ const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe"],
   },
   {
-    id: 2,
+    id: 3,
     title: "DigitalHub AI Platform",
     category: "Web Development",
     desc: "Full-stack AI-powered business solutions platform with intelligent chatbot, lead capture, and automated email marketing integration.",
