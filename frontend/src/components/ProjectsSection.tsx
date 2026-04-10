@@ -9,12 +9,12 @@ import Link from "next/link";
 const projects = [
   {
     id: 1,
-    title: "Al-Haramain Travel",
-    category: "Travel & Tourism Website",
-    desc: "Professional travel and tourism website for Al-Haramain Travel. Offering premium travel services, tour packages, and booking solutions for travelers.",
-    image: "/Al-Haramain-Travel.png",
-    link: "https://al-haramin.vercel.app/",
-    color: "from-emerald-500/20 to-teal-500/20",
+    title: "Obvis",
+    category: "AI & Medical Intelligence",
+    desc: "AI-powered medical intelligence platform transforming healthcare data into actionable insights. Advanced analytics and intelligent medical decision support system.",
+    image: "/Obvis-–-AI-Medical-Intelligence.png",
+    link: "https://obvis-yyes.vercel.app/",
+    color: "from-violet-500/20 to-purple-500/20",
     github: undefined
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 2,
+    id: 3,
     title: "DigitalHub AI Platform",
     category: "Web Development",
     desc: "Full-stack AI-powered business solutions platform with intelligent chatbot, lead capture, and automated email marketing integration.",
@@ -37,7 +37,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Marketing Automation",
     category: "Digital Marketing & AI",
     desc: "AI-driven marketing automation system that generates qualified leads through intelligent content optimization and programmatic advertising.",
@@ -46,7 +46,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 4,
+    id: 5,
     title: "Adresta",
     category: "Blockchain & Digital Identity",
     desc: "Swiss SaaS platform creating blockchain-based digital certificates for luxury watches. Digital twins, warranty management, and after-sales ecosystem.",
@@ -56,7 +56,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 5,
+    id: 6,
     title: "Greenlight Consulting",
     category: "Agentic AI & Automation",
     desc: "Enterprise AI consulting firm specializing in agentic AI, process orchestration, and intelligent automation. UiPath Diamond Partner with global delivery.",
@@ -66,7 +66,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 6,
+    id: 7,
     title: "Wagtails Essex",
     category: "Pet Care & Services",
     desc: "Premium dog care facility in Essex offering day care, puppy care, training, walking, and private dog parks. 5-star licensed with online booking system.",
@@ -76,7 +76,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 7,
+    id: 8,
     title: "Punjabi Touch Booklet",
     category: "Print Design & Branding",
     desc: "Elegant restaurant menu booklet design for Punjabi Touch Indian Restaurant. Traditional aesthetics with modern layout, showcasing authentic cuisine.",
@@ -86,7 +86,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 8,
+    id: 9,
     title: "Book Cover AlgoTrader",
     category: "Print Design & Book Cover",
     desc: "Professional book cover design for AlgoTrader - algorithmic trading guide. Modern financial aesthetic with bold typography and data-driven visuals.",
@@ -96,7 +96,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 9,
+    id: 10,
     title: "EximPortHub",
     category: "Logo Design & Branding",
     desc: "Professional logo design for EximPortHub - UK-based international import/export company specializing in medical supplies and goods worldwide.",
@@ -106,7 +106,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 10,
+    id: 11,
     title: "Cretronix",
     category: "Logo Design & Tech Branding",
     desc: "Modern logo design for Cretronix - computer software company. Tech-forward branding with sleek, professional aesthetics for the digital age.",
@@ -116,7 +116,7 @@ const projects = [
     github: undefined
   },
   {
-    id: 11,
+    id: 12,
     title: "Swiss Beauty Salon",
     category: "Logo Design & Beauty Branding",
     desc: "Elegant logo design for Swiss Beauty Salon - premium beauty and wellness center. Sophisticated branding reflecting Swiss quality and luxury aesthetics.",
@@ -126,13 +126,13 @@ const projects = [
     github: undefined
   },
   {
-    id: 12,
-    title: "Obvis",
-    category: "AI & Medical Intelligence",
-    desc: "AI-powered medical intelligence platform transforming healthcare data into actionable insights. Advanced analytics and intelligent medical decision support system.",
-    image: "/Obvis-–-AI-Medical-Intelligence.png",
-    link: "https://obvis-yyes.vercel.app/",
-    color: "from-violet-500/20 to-purple-500/20",
+    id: 13,
+    title: "Al-Haramain Travel",
+    category: "Travel & Tourism Website",
+    desc: "Professional travel and tourism website for Al-Haramain Travel. Offering premium travel services, tour packages, and booking solutions for travelers.",
+    image: "/Al-Haramain-Travel.png",
+    link: "https://al-haramin.vercel.app/",
+    color: "from-emerald-500/20 to-teal-500/20",
     github: undefined
   }
 ];
