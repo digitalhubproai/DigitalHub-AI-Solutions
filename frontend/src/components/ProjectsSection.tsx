@@ -124,6 +124,16 @@ const projects = [
     link: "https://dribbble.com/shots/15951445-Swiss-Beauty-Salon",
     color: "from-pink-500/20 to-rose-500/20",
     github: undefined
+  },
+  {
+    id: 12,
+    title: "Obvis",
+    category: "AI & Medical Intelligence",
+    desc: "AI-powered medical intelligence platform transforming healthcare data into actionable insights. Advanced analytics and intelligent medical decision support system.",
+    image: "/Obvis-–-AI-Medical-Intelligence.png",
+    link: "https://obvis-yyes.vercel.app/",
+    color: "from-violet-500/20 to-purple-500/20",
+    github: undefined
   }
 ];
 

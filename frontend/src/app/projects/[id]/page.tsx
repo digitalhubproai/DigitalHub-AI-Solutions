@@ -323,6 +323,35 @@ const projects = [
       "Luxury Identity",
     ],
   },
+  {
+    id: 12,
+    title: "Obvis",
+    category: "AI & Medical Intelligence",
+    desc: "AI-powered medical intelligence platform transforming healthcare data into actionable insights. Advanced analytics and intelligent medical decision support system.",
+    image: "/Obvis-–-AI-Medical-Intelligence.png",
+    link: "https://obvis-yyes.vercel.app/",
+    color: "from-violet-500/20 to-purple-500/20",
+    fullDescription:
+      "Obvis is an innovative AI-powered medical intelligence platform designed to transform healthcare data into actionable insights. The platform leverages advanced artificial intelligence and machine learning to assist healthcare professionals in making informed medical decisions. With its sophisticated analytics engine, Obvis processes complex medical data to provide intelligent recommendations, pattern recognition, and predictive insights that enhance patient care and clinical outcomes.",
+    features: [
+      "AI-Powered Medical Data Analysis",
+      "Intelligent Decision Support",
+      "Healthcare Analytics Dashboard",
+      "Medical Pattern Recognition",
+      "Predictive Insights Engine",
+      "Clinical Data Integration",
+      "Secure Healthcare Platform",
+      "Real-time Medical Intelligence",
+    ],
+    technologies: [
+      "Next.js",
+      "React",
+      "AI/ML Models",
+      "Healthcare APIs",
+      "Secure Database",
+      "Vercel",
+    ],
+  },
 ];
 
 interface PageProps {
